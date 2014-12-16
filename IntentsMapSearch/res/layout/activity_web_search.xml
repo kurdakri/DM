@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="4px" >
+
+	<EditText
+		android:id="@+id/etName"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:text="Source"
+		android:layout_margin="10px">
+	</EditText>
+	<EditText
+		android:id="@+id/etName2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:text="Destination"
+		android:layout_margin="10px">
+	</EditText>
+	
+	<Button
+	    android:id="@+id/btnGo"
+	    android:layout_width="225px"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="right"
+	    android:layout_marginRight="10px"
+	    android:text="Search"
+	    android:textStyle="bold" >
+		
+	</Button>
+
+
+</LinearLayout>

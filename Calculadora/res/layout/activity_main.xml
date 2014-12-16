@@ -1,0 +1,79 @@
+<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/mascota_calculadora"
+android:orientation="vertical" >
+
+<TableRow>
+
+    <TextView
+        android:id="@+id/pantalla"
+        android:layout_span= "3"
+        android:background="#fffffe00"
+        android:text="0" />
+
+</TableRow>
+<TableRow>
+	<Button
+	 android:id="@+id/button1"
+	 android:text="1" />
+	<Button
+	 android:id="@+id/button2"
+	 android:text="2" />
+	<Button
+	 android:id="@+id/button3"
+	 android:text="3" />
+</TableRow>
+<TableRow>
+	<Button
+	 android:id="@+id/button4"
+	 android:text="4" />
+	<Button
+	 android:id="@+id/button5"
+	 android:text="5" />
+	<Button
+	 android:id="@+id/button6"
+	 android:text="6" />
+</TableRow>
+<TableRow>
+	<Button
+	 android:id="@+id/button7"
+	 android:text="7" />
+	<Button
+	 android:id="@+id/button8"
+	 android:text="8" />
+	<Button
+	 android:id="@+id/button9"
+	 android:text="9" />
+</TableRow>
+<TableRow>
+	<Button
+	 android:id="@+id/buttonmult"
+	 android:text="x" />
+	<Button
+	 android:id="@+id/button0"
+	 android:text="0" />
+	<Button
+	 android:id="@+id/buttondiv"
+	 android:text="/" />
+</TableRow>
+<TableRow>
+	<Button
+	 android:id="@+id/buttonsum"
+	 android:text="+" />
+	<Button
+	 android:id="@+id/buttonres"
+	 android:text="-" />
+	<Button
+	 android:id="@+id/buttoneq"
+	 android:text="=" />
+</TableRow>
+<TableRow>
+    <Button
+     android:id="@+id/buttonpoint"
+     android:layout_column="1"
+     android:text="."/>
+</TableRow>
+
+</TableLayout>
